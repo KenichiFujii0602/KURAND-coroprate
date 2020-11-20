@@ -1,0 +1,232 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 40px;
+  text-align: left;
+  background-color: #fff;
+}
+
+li{
+  list-style: none;
+}
+
+header{
+  top: 0%;
+  width: 100%;
+  height: 100px;
+  position: fixed;
+  background-color: white;
+  display: flex;
+}
+
+header img{
+  width: auto;
+  height: 50px;
+  padding: 20px 0 0 60px;
+}
+
+.container{
+  margin-left: auto;
+  margin-right: 5%;
+}
+
+li > a{
+  text-decoration: none;
+  font-weight: bolder;
+}
+
+label{
+  color: #5c6063;
+  font-weight: bolder;
+}
+
+label:hover{
+  color: #212529;
+}
+
+.title > li >a{
+  color: #5c6063;
+}
+
+.container > ul{
+  display: flex;
+  padding-left: 20px;
+  margin-top: 30px;
+}
+.container  ul  li{
+  padding-left: 20px;
+  display: block;
+}
+
+.title > li > a:hover{
+  color: #212529;
+}
+
+label{
+  display: block;
+}
+input[type="checkbox"]{
+  display:none;
+}
+label[for="menu1"]{
+  display:block;
+}
+label[for="menu2"]{
+  display:block;
+}
+#menu1:checked + .dropdownmenu1{
+  display:block;
+}
+
+#menu1:checked + .dropdownmenu1{
+  display:block;
+}
+
+#menu1:checked + .dropdownmenu2{
+  display:block;
+}
+#menu2:checked + .dropdownmenu2{
+  display:block;
+}
+
+.dropdownmenu1{
+  display:none;
+  flex-direction: column;
+  border: solid 1px black;
+  background-color: white;
+  padding: 10px;
+  line-height: 30px;
+  position: relative;
+}
+
+.dropdownmenu1 a {
+  color: #212529;
+}
+
+.dropdownmenu2{
+  display:none;
+  flex-direction: column;
+  border: solid 1px black;
+  background-color: white;
+  padding: 10px;
+  line-height: 30px;
+  position: relative;
+}
+
+.dropdownmenu2 a {
+  color: #212529;
+}
+
+.philosophy{
+  width: 85%;
+  margin: 200px auto 0;
+  font-size: 40px;
+  font-weight: 600;
+  border:  #212529 10px solid;
+  padding: 20px;
+  text-align: center;
+}
+
+.mission{
+  display: flex;
+  width: 85%;
+  margin: 50px auto;
+}
+
+.mission-title{
+  width: 20%;
+  font-weight: lighter;
+  text-align: center;
+  font-size: 40px;
+}
+
+.mission-text{
+  width: 70%;
+  margin-left: auto;
+  padding-left: 50px;
+  border-left: #212529 solid 10px;
+}
+
+.mission h2{
+  font-size: 18px;
+}
+
+.mission-text h1{
+  font-size: 28px;
+}
+
+.value{
+  display: flex;
+  width: 85%;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 100px;
+}
+
+.value-title{
+  width: 20%;
+  font-weight: lighter;
+  text-align: center;
+  font-size: 40px;
+}
+
+.value-text{
+  width: 70%;
+  margin-left: auto;
+  padding-left: 50px;
+  border-left: #212529 solid 10px;
+}
+
+.value-text h1{
+  font-size: 28px;
+}
+
+footer{
+  height: 200px;
+  background-color: black;
+  color: white;
+  display: flex;
+}
+
+footer > ul {
+  display: flex;
+  padding-top: 20px;
+  font-weight: bold;
+}
+
+footer > ul >li{
+  padding-left: 30px;
+}
+
+footer > ul > li > a{
+  text-decoration: none;
+  color: white;
+}
+
+footer > ul > li > a:hover{
+  text-decoration: underline;
+}
+
+.dropdown2{
+  display: flex;
+  flex-direction: column;
+}
+
+.dropdown2 a{
+  line-height: 40px;
+  text-decoration: none;
+  color: white;
+  font-weight: normal;
+}
+
+.dropdown2 a:hover{
+  text-decoration: underline;
+}
+
+footer img {
+  margin: 40px ;
+  width: auto;
+  height: 100px;
+}
